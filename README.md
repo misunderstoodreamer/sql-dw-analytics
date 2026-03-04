@@ -19,6 +19,8 @@ The Star Schema consists of the following tables:
 * `gold.dim_products`: Product dimension containing categorization, pricing, and cost metrics.
 * `gold.fact_sales`: Transactional fact table recording order details, quantities, and revenue.
 
+Note: You need to reference the csv files in the data folder.
+
 ## Repository Structure
 
 The analytical scripts are modularized by business logic. Execute them sequentially:
