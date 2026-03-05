@@ -89,7 +89,7 @@ FROM customer_aggregation;
 */
 
 -- View: customer report with age groups, segment (from script 5), recency, AOV, avg monthly spend
-CREATE VIEW gold.report_customers AS
+CREATE VIEW gold.customer_reports AS
 WITH base_query AS (
 	SELECT
 		f.order_number,

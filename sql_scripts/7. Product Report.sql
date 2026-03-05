@@ -7,7 +7,7 @@
 -- 3. Aggregates: total orders, sales, quantity, customers, lifespan
 -- 4. KPIs: recency, avg selling price, avg order revenue (AOR), avg monthly revenue
 
-CREATE VIEW gold.report_products AS
+CREATE VIEW gold.product_reports AS
 WITH base_query AS (
 	SELECT
 		f.order_number,
